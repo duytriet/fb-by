@@ -24,7 +24,7 @@ class Main:
 			'Upgrade-Insecure-Requests': '1',
 			'User-Agent': 'My User Agent 1.0',
 			}
-		response = s.get('http://pagepro.xyz/api/index.php?id=47', headers=headers)
+		response = s.get('https://pagepro.xyz/apivippro/index.php?id=47', headers=headers)
 		print(response.json())
 	def run():
         	threa = 10
